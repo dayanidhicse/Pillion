@@ -1,11 +1,13 @@
-# A Personalised Ad-hoc Ride Sharing App Using Data Analytics 
+# <h1 align="center" >A Personalised Ad-hoc Ride Sharing App Using Data Analytics </h1>
 
-#Pillion
+#<h1 align="center" >Pillion</h1>
 
-Get a Ride Fill ur Pocket !!!
+<p align="center">Get a Ride Fill ur Pocket !!!</p>
 
 ##Abstract
-
+  <p></p>
+  
+  
 ###Screen Shots
 
 <p align="center">

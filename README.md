@@ -14,6 +14,9 @@
   * Language translation
   * Personality Insights
   
+  <p align="center">
+  <img src="https://github.com/dayanidhicse/Pillion/blob/master/ScreenShots/Bluemix.png" width="550"/>
+</p>
 #<h3>API's USED</h3>
 
   * Google Maps API
@@ -24,7 +27,10 @@
   * Text local API
   * Android Google Direction Library
   * FireBase API
-  
+   
+<p align="center">
+  <img src="https://github.com/dayanidhicse/Pillion/blob/master/ScreenShots/Api.png" width="550"/>
+</p>
 #<h3>RESULT'S & TEST CASES</h3>
 <img src="https://github.com/dayanidhicse/Pillion/blob/master/ScreenShots/Flow.png" />
 #<h3>Screen Shots</h3>

@@ -4,12 +4,28 @@
 
 <p align="center">Get a Ride Fill ur Pocket !!!</p>
 
-##Abstract
-  <p></p>
+<h3>Abstract</h3>
+  Pillion is Personalised Ad-hoc Ride Sharing App here we utilised various services Provided in IBM Bluemix to include more featured ride shareing application
   
-  
-###Screen Shots
+#<h3>IBM BLUEMIX SERVICES</h3>
 
+  * Cloudant NoSql db
+  * Insights for weather
+  * Language translation
+  * Personality Insights
+  
+#<h3>API's USED</h3>
+
+  * Google Maps API
+  * Google Geocoding API
+  * Google Directions API
+  * Google Distance Matrix API
+  * Google Places API
+  * Text local API
+  * Android Google Direction Library
+  * FireBase API
+
+<h3>Screen Shots</h3>
 <p align="center">
   <img src="https://github.com/dayanidhicse/Pillion/blob/master/ScreenShots/1.png" width="350"/>
   <img src="https://github.com/dayanidhicse/Pillion/blob/master/ScreenShots/2.png" width="350"/>

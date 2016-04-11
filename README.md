@@ -5,8 +5,9 @@
 <p align="center">Get a Ride Fill ur Pocket !!!</p>
 
 #<h3>ABSTRACT</h3>
-  Pillion is Personalised Ad-hoc Ride Sharing App here we utilised various services Provided in IBM Bluemix to include more featured ride shareing application.
-  
+  In the current scenario of ride sharing, there is no proper security available to the users and there is no way where a rider gets a co-passenger whom he is comfortable with. To find and select a comfortable passenger, we are proposing a system where the public data available from the social media about a person is collected and using Watson Services, Data Analytics Tools, the personality of the user is found. Based on the personality, the results are listed out when the ride is searched for.
+
+
 #<h3>IBM BLUEMIX SERVICES</h3>
 
   * Cloudant NoSql db

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <item
+                android:id="@+id/action_photo"
+                android:title="Pondicherry"
+                app:showAsAction="always|withText" />
+            <item
+                android:id="@+id/action_video"
+                android:title="Chennai"
+                app:showAsAction="always|withText" />
+            <item
+                android:id="@+id/action_text"
+                android:title="Bangalore"
+                app:showAsAction="always|withText" />
+
+
+        </menu>
+

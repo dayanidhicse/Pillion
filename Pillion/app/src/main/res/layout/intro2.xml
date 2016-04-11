@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e2736"
+    android:layout_weight="10"
+    android:gravity="center_vertical"
+    android:id="@+id/main">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Personalised Ride Sharing"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="100dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/no_smoking"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/speed"/>
+        <ImageView
+            android:src="@drawable/liqure"
+            android:layout_width="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+
+</LinearLayout>

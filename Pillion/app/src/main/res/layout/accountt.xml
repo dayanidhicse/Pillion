@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingRight="0.5dp"
+    android:paddingLeft="0.5dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#455A64"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <FrameLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/txt22"
+                android:id="@+id/frameLayout">
+
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/pic1"
+                    android:src="@drawable/images"
+                    app:paddingEnd="1dp"
+                    app:siBorderColor="@color/white"
+                    android:layout_gravity="left|center_vertical" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+
+                android:text="Arvind Kumar"
+                android:textColor="@color/primary_light"
+
+                android:layout_toEndOf="@+id/frameLayout" />
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:text="Experience: Newcomer"
+                android:paddingLeft="10dp"
+                android:layout_alignBottom="@+id/name"
+                android:layout_alignStart="@+id/name" />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/view"
+            android:layout_below="@+id/rel1"
+            android:gravity="center_horizontal"
+            android:textColor="#71b2dc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View your pubic profile"/>
+        <FrameLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/view12"
+            android:layout_below="@id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_smartphone_black_24dp"/>
+            <TextView
+                android:id="@+id/mob"
+                android:layout_marginLeft="40dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="30dp"
+                android:text="+91 9578458083"/>
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/view12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_email_black_24dp"/>
+            <TextView
+                android:id="@+id/mail"
+                android:layout_marginLeft="40dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="30dp"
+                android:text="arvind.heroic@yahoo.com"/>
+        </FrameLayout>
+
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/view12"
+            android:background="#ffffff"
+            android:textColor="@android:color/holo_orange_light"
+            android:text="Verify your email now"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/edit1"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/edit"
+            android:background="#1e93de"
+            android:textColor="#ffffff"
+            android:text="EDIT PROFILE"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txt111"
+            android:layout_below="@+id/edit1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:background="#1e93de"
+            android:textColor="#ffffff"
+            android:text="  PREFERENCES"/>
+        <FrameLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="70dp"
+            android:layout_below="@id/txt111"
+            android:layout_height="70dp"
+            android:layout_marginLeft="120dp"
+            android:id="@+id/frameLayout1">
+
+            <com.github.siyamed.shapeimageview.CircularImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pic11"
+                android:src="@drawable/images"
+                app:paddingEnd="1dp"
+                app:siBorderColor="@color/white"
+                android:layout_gravity="left|center_vertical" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="70dp"
+            android:layout_below="@id/txt111"
+            android:layout_height="70dp"
+            android:layout_marginLeft="200dp"
+            android:id="@+id/frameLayout2">
+
+            <com.github.siyamed.shapeimageview.CircularImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/pic12"
+                android:src="@drawable/female"
+                app:paddingEnd="1dp"
+                app:siBorderColor="@color/white" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txt112"
+            android:layout_below="@+id/frameLayout2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:background="#1e93de"
+            android:textColor="#ffffff"
+            android:text="  YOUR BIKE"/>
+        <Button
+            android:id="@+id/edit21"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/txt112"
+            android:background="#1e93de"
+            android:textColor="#ffffff"
+            android:text="ADD A BIKE"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/edit22"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/edit21"
+            android:background="#ffffff"
+            android:textColor="#1e93de"
+            android:text="I DON'T HAVE A CAR"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</ScrollView>

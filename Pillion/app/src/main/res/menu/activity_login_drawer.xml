@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/Sigup" android:icon="@drawable/signup"
+            android:title="Signup" />
+        <item android:id="@+id/Login" android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Login" />
+        <item android:id="@+id/HowitWorks" android:icon="@drawable/how"
+            android:title="How it Works" />
+    </group>
+
+
+
+</menu>

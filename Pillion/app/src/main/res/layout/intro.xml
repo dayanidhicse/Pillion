@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e2736"
+    android:layout_weight="10"
+    android:gravity="center_horizontal|center_vertical"
+    android:id="@+id/main">
+
+   <ImageView
+       android:src="@drawable/pillion_final1"
+       android:layout_width="200dp"
+       android:layout_height="200dp" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="20dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:text="Pillion Provides Safe and Secure Ride-Sharing with the Help of Advanced Tech in this Cognitive Era"/>
+
+</LinearLayout>

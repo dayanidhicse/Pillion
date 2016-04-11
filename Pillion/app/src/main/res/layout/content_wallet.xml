@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_wallet"
+    tools:context="com.example.dayanidhi.myapplication.Wallet">
+
+
+
+    <include layout="@layout/content_home" />
+
+    <RelativeLayout
+        android:background="#f2f2f2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/darker_gray"
+            android:text="january 16, 10:36pm"/>
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_below="@+id/date"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:editable="false"
+            android:textSize="50sp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="Rs.1000"/>
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_below="@id/balance"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="160dp"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+        </LinearLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/use"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/line2"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/recharge"
+            android:paddingTop="30dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:textColorHint="@color/transparent_black"
+            android:hint="Recharge Code"
+            android:textColor="@android:color/black"/>
+</android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_below="@+id/use"
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/linearLayout3">
+            <Button
+                android:id="@+id/add"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Add"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

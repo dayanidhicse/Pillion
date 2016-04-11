@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/road">
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/txt22"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:id="@+id/txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="30dp"
+                    android:textColor="@android:color/background_dark"
+                    android:text="11:30"/>
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_below="@+id/txt"
+                    android:text="Puducherry >> Chennai"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_below="@+id/txt1"
+                    android:text="3 seats available"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+                <RelativeLayout
+                    android:layout_alignEnd="@+id/txt2"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp">
+                    <TextView
+                        android:id="@+id/prise"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Rs 300"
+                        android:textSize="30dp"
+                        android:textColor="@android:color/holo_green_dark"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_below="@+id/txt22"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:id="@+id/view" />
+            <FrameLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/txt22"
+                android:id="@+id/frameLayout">
+
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/pic1"
+                    android:src="@drawable/images"
+                    app:siBorderWidth="1dp"
+                    app:siBorderColor="@color/white"
+                    android:layout_gravity="left|center_vertical" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Paul Richee "
+                android:textColor="@color/cardview_dark_background"
+                android:layout_below="@+id/view"
+                android:layout_toEndOf="@+id/frameLayout" />
+            <TextView
+                android:layout_width="70dp"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:text="27 y/o"
+                android:layout_alignTop="@+id/frameLayout"
+                android:layout_toEndOf="@+id/name" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

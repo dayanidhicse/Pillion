@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="38dp"
+    android:layout_below="@id/toolbar"
+    android:background="#f7f7f7"
+    tools:showIn="@layout/app_bar_find_aride1"
+    tools:context=".FindARide1">
+    <android.support.v7.widget.CardView
+        android:background="@android:color/transparent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <FrameLayout
+            android:layout_width="50dp"
+            android:background="@android:color/transparent"
+            android:layout_height="150dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/abc"/>
+        </FrameLayout>
+        <RelativeLayout
+            android:background="@android:color/transparent"
+android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <AutoCompleteTextView
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="50dp"
+                android:background="@color/primary_dark"
+                android:layout_height="35dp"
+                android:layout_marginTop="30dp"
+                android:hint=""
+                android:inputType="textAutoComplete"
+android:textColor="@color/colorPrimaryDark"
+
+                android:id="@+id/editText"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+<ImageView
+    android:id="@+id/location"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@android:drawable/ic_menu_compass"
+    android:layout_alignTop="@+id/editText"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+            <AutoCompleteTextView
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="50dp"
+                android:inputType="textAutoComplete"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/primary_dark"
+                android:layout_height="35dp"
+                android:layout_below="@id/editText"
+                android:layout_marginTop="18dp"
+                android:id="@+id/editText2"
+
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <view
+        android:id="@+id/recycler_view"
+        android:layout_below="@id/card_view"
+        class="android.support.v7.widget.RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

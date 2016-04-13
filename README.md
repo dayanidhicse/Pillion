@@ -32,6 +32,11 @@
 <p align="center">
   <img src="https://github.com/dayanidhicse/Pillion/blob/master/ScreenShots/Api.png" width="550"/>
 </p>
+
+#<h3>PERSONALITY RIDE SEARCH</h3>
+<img src="https://github.com/dayanidhicse/Pillion/blob/master/ScreenShots/Person1.png" />
+#<h3>PERSONALITY RIDE SHAREING</h3>
+<img src="https://github.com/dayanidhicse/Pillion/blob/master/ScreenShots/Person2.png" />
 #<h3>RESULT'S & TEST CASES</h3>
 <img src="https://github.com/dayanidhicse/Pillion/blob/master/ScreenShots/Flow.png" />
 #<h3>Screen Shots</h3>
